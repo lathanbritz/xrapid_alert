@@ -3,8 +3,6 @@ import {HttpClient} from '@angular/common/http';
 import {CookieService} from 'ngx-cookie-service';
 import {TablesService} from "../tables/tables.service";
 import {NgxSpinnerService} from "ngx-spinner";
-import * as SockJS from "sockjs-client";
-import * as Stomp from 'stompjs';
 
 
 @Component({
